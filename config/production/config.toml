@@ -1,1 +1,2 @@
-canonifyURLs = false
+baseurl = "https://som-shahlab.github.io/medalign-website/"
+canonifyURLs = true

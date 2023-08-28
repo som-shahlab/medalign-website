@@ -5,11 +5,11 @@
 </p>
 
 <h1 align="center">
-  Doks
+  MedAlign
 </h1>
 
 <h3 align="center">
-  Doks Child Theme
+  A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records
 </h3>
 
 <p align="center">

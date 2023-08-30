@@ -1,29 +1,29 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
-titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
+title = "MedAlign"
+titleSeparator = ":"
+titleAddition = "A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records"
+description = "MedAlign is a benchmark dataset of natural language instructions for evaluating large language models on instruction following tasks grounded in the Electronic Medical Record."
 
 ## Open Graph
 images = ["doks.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
-titleHome = "Doks Theme"
+titleHome = "MedAlign Project Website"
 
 ## Twitter Cards
-twitterSite = "@getdoks"
-twitterCreator = "@henkverlinde"
+twitterSite = "@drnigam"
+twitterCreator = "@_scott_fleming_"
 
 ## JSON-LD
 # schemaType = "Person"
 schemaType = "Organization"
 schemaName = "Doks"
 schemaAuthor = "Henk Verlinde"
-schemaAuthorTwitter = "https://twitter.com/henkverlinde"
-schemaAuthorLinkedIn = "https://www.linkedin.com/in/henkverlinde/"
-schemaAuthorGitHub = "https://github.com/h-enk"
+schemaAuthorTwitter = "https://twitter.com/_scott_fleming_"
+schemaAuthorLinkedIn = "https://www.linkedin.com/in/thescottfleming/"
+schemaAuthorGitHub = "https://github.com/scottfleming"
 schemaLocale = "en-US"
 schemaLogo = "logo-doks.png"
 schemaLogoWidth = 512
@@ -31,9 +31,9 @@ schemaLogoHeight = 512
 schemaImage = "doks.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
-schemaTwitter = "https://twitter.com/getdoks"
+schemaTwitter = ""
 schemaLinkedIn = ""
-schemaGitHub = "https://github.com/h-enk/doks"
+schemaGitHub = "https://github.com/som-shahlab/medalign"
 schemaSection = "blog"
 
 ## Sitelinks Search Box
@@ -53,14 +53,14 @@ lqipWidth = "20x"
 footer = "Powered by <a href=\"https://www.netlify.com/\">Netlify</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
 
 # Feed
-copyRight = "Copyright (c) 2020-2021 Henk Verlinde"
+copyRight = "Copyright (c) 2022-2023 Scott Fleming"
 
 # Alert
 alert = false
-alertText = "Like Doks? <a class=\"alert-link\" href=\"https://github.com/h-enk/doks/stargazers\">Star on GitHub</a>. Thanks!</a>"
+alertText = "Like MedAlign? <a class=\"alert-link\" href=\"https://github.com/som-shahlab/medalign\">Star on GitHub</a>. Thanks!</a>"
 
 # Edit Page
-docsRepo = "https://github.com/h-enk/doks"
+docsRepo = "https://github.com/som-shahlab/medalign-website"
 editPage = false
 
 [options]

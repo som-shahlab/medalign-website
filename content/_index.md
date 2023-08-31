@@ -1,7 +1,7 @@
 ---
-title : "MedAlign"
+title: "MedAlign"
 description: "A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records"
-lead: "A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records"
+lead: "A Clinician-Generated Benchmark Dataset for Instruction Following with Electronic Medical Records"
 date: 2020-10-06T08:47:36+00:00
 lastmod: 2020-10-06T08:47:36+00:00
 draft: false

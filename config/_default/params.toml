@@ -7,7 +7,7 @@ titleAddition = "A Clinician-Generated Dataset for Instruction Following with El
 description = "MedAlign is a benchmark dataset of natural language instructions for evaluating large language models on instruction following tasks grounded in the Electronic Medical Record."
 
 ## Open Graph
-images = ["doks.png"]
+images = ["MEDALIGN_twitter_card.png"]
 ogLocale = "en_US"
 domainTLD = "doks.netlify.app"
 titleHome = "MedAlign Project Website"

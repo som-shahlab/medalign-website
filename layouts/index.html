@@ -28,7 +28,7 @@
         </div>
 
         <section class="section section-sm">
-          <div class="container">
+      
             <div class="row justify-content-center text-center">
               <div class="col-lg-5">
                 <h2 class="h4"><a href="https://medalign-4b245550a5e9.herokuapp.com/">Contribute instructions</a></h2>
@@ -70,6 +70,8 @@
 
 {{ define "sidebar-prefooter" }}
 <!-- <section class="section section-sm">
+
+  
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="col-lg-5">
@@ -96,6 +98,37 @@
     </div>
   </div>
 </section> -->
+
+
+<style>
+  #arxiv-citation {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-x: auto;
+  }
+  </style>
+
+
+
+
+
+
+
+
+<div class="container">
+<div class="row justify-content-center">
+  <h3>Citation</h3>
+  <pre id="arxiv-citation">
+@article{fleming2023medalign,
+  title={MedAlign: A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records},
+  author={Fleming, Scott L and Lozano, Alejandro and Haberkorn, William J and Jindal, Jenelle A and Reis, Eduardo P and Thapa, Rahul and Blankemeier, Louis and Genkins, Julian Z and Steinberg, Ethan and Nayak, Ashwin and others},
+  journal={arXiv preprint arXiv:2308.14089},
+  year={2023}
+}
+</pre>
+</div>
+</div>
 {{ end }}
 
 {{ define "sidebar-footer" }}

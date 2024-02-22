@@ -31,4 +31,4 @@ For more information, please read the main MedAlign [paper](https://arxiv.org/ab
 
 ### Questions?
 
-For questions and feedback, please post on the [discussion board](https://github.com/p-lambda/wilds/discussions).
+For questions and feedback, please post on the [discussion board](https://github.com/som-shahlab/medalign/discussions).

@@ -45,7 +45,7 @@ jobs:
       - name: Install Hugo CLI
         run: |
           wget -O $/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i $/hugo.deb          
+          && sudo dpkg -i $/hugo.deb
       - name: Install Dart Sass
         run: sudo snap install dart-sass
       - name: Checkout
@@ -68,7 +68,7 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "$/"          
+            --baseURL "$/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

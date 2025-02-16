@@ -2,7 +2,6 @@
 
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,700,700i|Noto+Sans:400,400i,700,700i|Source+Code+Pro&amp;subset=latin-ext">
-<!-- <link rel="stylesheet" href="https://wilds.stanford.edu/doks-theme/assets/css/style.css"> -->
 
 <section class="section hero-subheader container-fluid mt-n3 pb-3">
 
@@ -22,111 +21,48 @@
       <div class="row justify-content-center">
           <div class="col-lg-9 col-xl-8 text-center">
             <a class="btn btn-primary btn-lg px-4 mb-2" href="https://arxiv.org/abs/2308.14089" role="button">Paper</a>
-            <a class="btn btn-primary btn-lg px-4 mb-2" href="https://medalign-4b245550a5e9.herokuapp.com/" role="button">Contribute</a>
             <a class="btn btn-primary btn-lg px-4 mb-2" href="https://github.com/som-shahlab/medalign/" role="button">GitHub</a>
+            <a class="btn btn-primary btn-lg px-4 mb-2" href="https://redivis.com/ShahLab/datasets" role="button">Dataset Access</a>
           </div>
         </div>
-
-        <section class="section section-sm">
-
-            <div class="row justify-content-center text-center">
-              <div class="col-lg-5">
-                <h2 class="h4"><a href="https://medalign-4b245550a5e9.herokuapp.com/">Contribute instructions</a></h2>
-                <p>Help us go beyond 1314 instructions. Click <a href="https://medalign-4b245550a5e9.herokuapp.com/">here</a> to contribute an instruction. </p>
-              </div>
-              <div class="col-lg-5">
-                <h2 class="h4"><a href="https://github.com/som-shahlab/medalign/discussions">Contact us</a></h2>
-                <p><a href="https://github.com/som-shahlab/medalign/discussions">Contact us</a> with questions and suggestions.
-                </p>
-              </div>
-              <div class="col-lg-5">
-                <h2 class="h4"><a href="docs/dataset/access">Dataset access</a></h2>
-                <p>Coming soon.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
 
         <!-- Third  Row -->
         <div style="text-align: justify; text-justify: inter-word;">
-            </p style="text-align: justify; text-justify: inter-word;"> The ability of large language models (LLMs) to follow natural language instructions with human-level fluency suggests many opportunities in healthcare to reduce administrative burden and improve quality of care. However, evaluating LLMs on realistic text generation tasks for healthcare remains challenging. Existing question answering datasets for electronic health record (EHR) data fail to capture the complexity of information needs and documentation burdens experienced by clinicians. To address these challenges, we introduce MedAlign, a benchmark dataset of 983 natural language instructions for EHR data. MedAlign is curated by 15 clinicians (7 specialities), includes clinician-written reference responses for 303 instructions, and provides 276 longitudinal EHRs for grounding instruction-response pairs. We used MedAlign to evaluate 6 general domain LLMs, having clinicians rank the accuracy and quality of each LLM response. We found high error rates, ranging from 35% (GPT-4) to 68% (MPT-7B-Instruct), and an 8.3% drop in accuracy moving from 32k to 2k context lengths for GPT-4. Finally, we report correlations between clinician rankings and automated natural language generation metrics as a way to rank LLMs without human review. We make MedAlign available under a research data use agreement to enable LLM evaluations on tasks aligned with clinician needs and preferences.<p>
+            <p>
+                Large language models (LLMs) have demonstrated human-level fluency in following natural language instructions, offering potential to reduce administrative burdens in healthcare. However, evaluating LLMs on real-world clinical tasks remains a challenge.
+                <strong>MEDALIGN</strong> addresses this by introducing a benchmark dataset of <strong>983 natural language instructions</strong> for Electronic Health Record (EHR) data, curated by <strong>15 clinicians across 7 specialties</strong>. The dataset includes:
+            </p>
+            <ul>
+                <li><strong>302 clinician-written reference responses</strong> for instruction-following evaluation.</li>
+                <li><strong>275 longitudinal EHRs</strong> to ground instruction-response pairs.</li>
+                <li>Comparative analysis of <strong>six LLMs</strong>, revealing high error rates ranging from <strong>35% (GPT-4) to 68% (MPT-7B-Instruct)</strong>.</li>
+                <li>An <strong>8.3% drop in accuracy</strong> when GPT-4 moved from a 32k to a 2k context length.</li>
+                <li>Assessment of correlations between clinician rankings and automated metrics, highlighting <strong>COMET as the best-performing automated evaluation metric</strong>.</li>
+            </ul>
         </div>
 
         <!-- Fourth Row -->
-        <div class="row justify-content-center  d-md-block">
-          <img src="https://raw.githubusercontent.com/som-shahlab/medalign-website/main/images/medalign_workflow-1.png" alt="Rectangle"  class="border-0" >
+        <div class="row justify-content-center d-md-block">
+          <img src="https://raw.githubusercontent.com/som-shahlab/medalign-website/main/images/medalign_workflow-1.png" alt="MEDALIGN Workflow"  class="border-0" >
         </div>
-
   </div>
-
-</div>
-
-</div>
-
-
 </section>
 {{ end }}
 
 {{ define "sidebar-prefooter" }}
-<!-- <section class="section section-sm">
-
-
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="col-lg-5">
-        <h2 class="h4"><a href="docs/dataset/access">Download instructions</a></h2>
-        <p>We will make the full dataset available to
-          researchers under a standard research
-          DUA in coming months. See <a href="docs/dataset/access">here</a> for more details.
-        </p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://medalign-4b245550a5e9.herokuapp.com/"
-          role="button">Get access</a>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4"><a href="https://medalign-4b245550a5e9.herokuapp.com/">Contribute instructions</a></h2>
-        <p>Click <a href="https://medalign-4b245550a5e9.herokuapp.com/">here</a> to Share your email, contribute an instruction, and you'll be the first to know when the full dataset becomes
-          available.</p>
-      </div>
-      <div class="col-lg-5">
-        <h2 class="h4"><a href="https://github.com/som-shahlab/medalign/discussions">Contact us</a></h2>
-        <p><a href="https://github.com/som-shahlab/medalign/discussions">Contact us</a> if you have any questions, feedback, or suggestions for MedAlign, or if you want to contribute!
-        </p>
-        <a class="btn btn-primary btn-lg px-4 mb-2" href="https://medalign-4b245550a5e9.herokuapp.com/"
-          role="button">Team</a>
-      </div>
-    </div>
-  </div>
-</section> -->
-
-
-
-
-
-
-
-
 <div class="container">
 <div class="row justify-content-center">
   <h3>Citation</h3>
   <pre id="arxiv-citation">
-@article{fleming2023medalign,
-  title={MedAlign: A Clinician-Generated Dataset for Instruction Following with Electronic Medical Records},
-  author={Scott L. Fleming and Alejandro Lozano and William J. Haberkorn and Jenelle A. Jindal and Eduardo P. Reis and Rahul Thapa and Louis Blankemeier and Julian Z. Genkins and Ethan Steinberg and Ashwin Nayak and Birju S. Patel and Chia-Chun Chiang and Alison Callahan and Zepeng Huo and Sergios Gatidis and Scott J. Adams and Oluseyi Fayanju and Shreya J. Shah and Thomas Savage and Ethan Goh and Akshay S. Chaudhari and Nima Aghaeepour and Christopher Sharp and Michael A. Pfeffer and Percy Liang and Jonathan H. Chen and Keith E. Morse and Emma P. Brunskill and Jason A. Fries and Nigam H. Shah},
-  journal={arXiv preprint arXiv:2308.14089},
-  year={2023}
+@inproceedings{DBLP:conf/aaai/FlemingLHJRTBGS24,
+  author       = {Scott L. Fleming and Alejandro Lozano and William J. Haberkorn and Jenelle A. Jindal and Eduardo Reis and Rahul Thapa and Louis Blankemeier and Julian Z. Genkins and Ethan Steinberg and Ashwin Nayak and Birju S. Patel and Chia{-}Chun Chiang and Alison Callahan and Zepeng Huo and Sergios Gatidis and Scott J. Adams and Oluseyi Fayanju and Shreya J. Shah and Thomas Savage and Ethan Goh and Akshay S. Chaudhari and Nima Aghaeepour and Christopher D. Sharp and Michael A. Pfeffer and Percy Liang and Jonathan H. Chen and Keith E. Morse and Emma P. Brunskill and Jason A. Fries and Nigam H. Shah},
+  title        = {MedAlign: {A} Clinician-Generated Dataset for Instruction Following with Electronic Medical Records},
+  booktitle    = {Thirty-Eighth {AAAI} Conference on Artificial Intelligence},
+  year         = {2024},
+  url          = {https://doi.org/10.1609/aaai.v38i20.30205},
+  doi          = {10.1609/AAAI.V38I20.30205},
 }
 </pre>
 </div>
 </div>
-{{ end }}
-
-{{ define "sidebar-footer" }}
-<!-- <section class="section section-sm container-fluid">
-  <div class="row justify-content-center text-center">
-    <div class="col-lg-9">
-      {{- .Content -}}
-    </div>
-  </div>
-</section> -->
 {{ end }}
